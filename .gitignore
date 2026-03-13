@@ -1,0 +1,26 @@
+# ==========================================
+# Steam Big Data Pipeline — .gitignore
+# ==========================================
+
+# --- Large Data Files ---
+shared/games.csv
+shared/part-*.csv
+shared/refined_steam_data/
+
+# --- PostgreSQL Volume Data ---
+postgres_data/
+
+# --- Jupyter / Python ---
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# --- Spark ---
+spark-warehouse/
+metastore_db/
+derby.log
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
